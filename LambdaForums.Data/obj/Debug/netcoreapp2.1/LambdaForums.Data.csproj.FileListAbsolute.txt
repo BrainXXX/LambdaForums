@@ -1,0 +1,6 @@
+C:\Users\BrainX\Documents\SmartGit\LambdaForums\LambdaForums.Data\bin\Debug\netcoreapp2.1\LambdaForums.Data.deps.json
+C:\Users\BrainX\Documents\SmartGit\LambdaForums\LambdaForums.Data\bin\Debug\netcoreapp2.1\LambdaForums.Data.dll
+C:\Users\BrainX\Documents\SmartGit\LambdaForums\LambdaForums.Data\obj\Debug\netcoreapp2.1\LambdaForums.Data.csprojAssemblyReference.cache
+C:\Users\BrainX\Documents\SmartGit\LambdaForums\LambdaForums.Data\obj\Debug\netcoreapp2.1\LambdaForums.Data.csproj.CoreCompileInputs.cache
+C:\Users\BrainX\Documents\SmartGit\LambdaForums\LambdaForums.Data\obj\Debug\netcoreapp2.1\LambdaForums.Data.AssemblyInfoInputs.cache
+C:\Users\BrainX\Documents\SmartGit\LambdaForums\LambdaForums.Data\obj\Debug\netcoreapp2.1\LambdaForums.Data.AssemblyInfo.cs

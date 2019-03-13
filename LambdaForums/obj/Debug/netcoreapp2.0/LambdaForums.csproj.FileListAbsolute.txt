@@ -1,0 +1,15 @@
+C:\Users\BrainX\Documents\SmartGit\LambdaForums\LambdaForums\bin\Debug\netcoreapp2.0\LambdaForums.deps.json
+C:\Users\BrainX\Documents\SmartGit\LambdaForums\LambdaForums\bin\Debug\netcoreapp2.0\LambdaForums.runtimeconfig.json
+C:\Users\BrainX\Documents\SmartGit\LambdaForums\LambdaForums\bin\Debug\netcoreapp2.0\LambdaForums.runtimeconfig.dev.json
+C:\Users\BrainX\Documents\SmartGit\LambdaForums\LambdaForums\bin\Debug\netcoreapp2.0\LambdaForums.dll
+C:\Users\BrainX\Documents\SmartGit\LambdaForums\LambdaForums\bin\Debug\netcoreapp2.0\LambdaForums.pdb
+C:\Users\BrainX\Documents\SmartGit\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.0\LambdaForums.csprojAssemblyReference.cache
+C:\Users\BrainX\Documents\SmartGit\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.0\LambdaForums.csproj.CoreCompileInputs.cache
+C:\Users\BrainX\Documents\SmartGit\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\BrainX\Documents\SmartGit\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.0\LambdaForums.AssemblyInfoInputs.cache
+C:\Users\BrainX\Documents\SmartGit\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.0\LambdaForums.AssemblyInfo.cs
+C:\Users\BrainX\Documents\SmartGit\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.0\LambdaForums.dll
+C:\Users\BrainX\Documents\SmartGit\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.0\LambdaForums.pdb
+C:\Users\BrainX\Documents\SmartGit\LambdaForums\LambdaForums\bin\Debug\netcoreapp2.0\LambdaForums.Data.dll
+C:\Users\BrainX\Documents\SmartGit\LambdaForums\LambdaForums\bin\Debug\netcoreapp2.0\LambdaForums.Data.pdb
+C:\Users\BrainX\Documents\SmartGit\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.0\LambdaForums.csproj.CopyComplete
