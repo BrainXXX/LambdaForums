@@ -38,7 +38,7 @@ namespace LambdaForums.Controllers
         public IActionResult Topic(int id)
         {
             var forum = _forumService.GetById(id);
-            var posts = _postService.GetPostsByForum(id);
+            var posts = forum.Posts;
 
             var postListings = posts.Select(post => new PostListingModel
             {
@@ -51,6 +51,12 @@ namespace LambdaForums.Controllers
                 Forum = BuildForumListing(post)
             });
 
+            var model = new ForumTopicModel
+            {
+                Posts = postListings,
+                Forum = BuildForumListing(forum)
+            };
+
             return View();
         }
 
@@ -58,6 +64,11 @@ namespace LambdaForums.Controllers
         {
             var forum = post.Forum;
 
+            return BuildForumListing(forum);
+        }
+
+        private ForumListingModel BuildForumListing(Forum forum)
+        {
             return new ForumListingModel
             {
                 Id = forum.Id,
