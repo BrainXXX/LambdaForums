@@ -102,7 +102,7 @@ namespace LambdaForums.Data.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<string>("Context");
+                    b.Property<string>("Content");
 
                     b.Property<DateTime>("Created");
 

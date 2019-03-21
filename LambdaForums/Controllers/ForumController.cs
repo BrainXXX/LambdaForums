@@ -57,13 +57,12 @@ namespace LambdaForums.Controllers
                 Forum = BuildForumListing(forum)
             };
 
-            return View();
+            return View(model);
         }
 
         private ForumListingModel BuildForumListing(Post post)
         {
             var forum = post.Forum;
-
             return BuildForumListing(forum);
         }
 
