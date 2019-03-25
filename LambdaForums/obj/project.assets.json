@@ -5033,7 +5033,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
         "dependencies": {
-          "Microsoft.AspNetCore.All": "2.0.0"
+          "Microsoft.AspNetCore.All": "2.0.9"
         },
         "compile": {
           "bin/placeholder/LambdaForums.Data.dll": {}
