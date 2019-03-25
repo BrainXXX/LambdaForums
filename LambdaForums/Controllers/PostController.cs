@@ -20,7 +20,6 @@ namespace LambdaForums.Controllers
         public IActionResult Index(int id)
         {
             var post = _postService.GetById(id);
-
             var replies = BuildPostReplies(post.Replies);
 
             var model = new PostIndexModel

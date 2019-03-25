@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaForums", "LambdaForum
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaForums.Data", "LambdaForums.Data\LambdaForums.Data.csproj", "{A979862A-10C1-4A85-8598-18D43E442917}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaForums.Service", "LambdaForums.Service\LambdaForums.Service.csproj", "{4A764DE4-97D7-431C-B46B-D3C74188B417}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaForums.Service", "LambdaForums.Service\LambdaForums.Service.csproj", "{4A764DE4-97D7-431C-B46B-D3C74188B417}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

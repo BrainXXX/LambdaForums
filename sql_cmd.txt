@@ -1,0 +1,30 @@
+Чтобы запустить скрипт из общего текста, выделяем текст скрипта и нажимаем F5:
+
+SELECT * FROM Forums
+
+INSERT INTO Forums (Created, Title, [Description], ImageUrl)
+VALUES
+(GETDATE(), 'Pyton', 'A popular dynamic, strongly-typed general programming language with a focus on readability', '/images/forum/py.png'),
+(GETDATE(), 'C#', 'An object-oriented programming language for building applications on the .NET Framework', '/images/forum/cs.png'),
+(GETDATE(), 'Haskell', 'A popular functional programming language', '/images/forum/hs.png'),
+(GETDATE(), 'Javascript', 'Multi-paradigm language based on the ECMAScript specification', '/images/forum/js.png'),
+(GETDATE(), 'Go', 'Open-source statically-typed programming language developed at Google', '/images/forum/go.png')
+
+
+SELECT * FROM Posts
+
+INSERT INTO Posts (Content, Created, ForumId, Title, UserId)
+VALUES ('First Python Post Content Here ...... !', GETDATE(), 1, 'First Python Post!', '78d51998-d392-4b67-8868-ec80b95e20e9')
+
+INSERT INTO Posts (Content, Created, ForumId, Title, UserId)
+VALUES ('Second Python Post... !', GETDATE(), 1, 'Another Python Post!', '78d51998-d392-4b67-8868-ec80b95e20e9'),
+('More Python', GETDATE(), 1, 'Python for Machine Learning', '78d51998-d392-4b67-8868-ec80b95e20e9'),
+('More Content', GETDATE(), 1, 'Using Matplotlib', '78d51998-d392-4b67-8868-ec80b95e20e9');
+
+SELECT * FROM AspNetUsers
+
+SELECT p.Title AS PostTitle, f.Title AS ForumName, u.Email
+FROM Posts p
+	INNER JOIN Forums f ON p.ForumId = f.Id
+	INNER JOIN AspNetUsers u ON u.Id = p.UserId
+WHERE p.Id = 1
