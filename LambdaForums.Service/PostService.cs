@@ -18,7 +18,7 @@ namespace LambdaForums.Service
             _context = context;
         }
 
-        public Task Add(IPost post)
+        public Task Add(Post post)
         {
             throw new NotImplementedException();
         }
