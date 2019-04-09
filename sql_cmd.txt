@@ -28,3 +28,5 @@ FROM Posts p
 	INNER JOIN Forums f ON p.ForumId = f.Id
 	INNER JOIN AspNetUsers u ON u.Id = p.UserId
 WHERE p.Id = 1
+
+UPDATE AspNetUsers SET ProfileImageUrl = '/images/users/user0.png' WHERE Id = '78d51998-d392-4b67-8868-ec80b95e20e9'
