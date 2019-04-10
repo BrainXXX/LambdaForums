@@ -27,8 +27,9 @@
     font-weight: bold;
 }
 
-.sectionHeader{
-    background-color: palegoldenrod;
+.sectionHeader {
+    /* background-color: palegoldenrod; */
+    background-color: #212121;
     padding: 8px 0 24px 24px;
 }
 
